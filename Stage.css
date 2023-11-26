@@ -92,14 +92,14 @@ h1{
     display: flex;
     flex-direction: row;
     width: 520px;
-    height: 234px;
+    height: 240px;
 }
 
 .pattes1{
     display: flex;
     flex-direction: row;
     width: 520px;
-    height: 251px;
+    height: 258px;
 }
 
 .pattes h2{
@@ -121,11 +121,82 @@ h1{
 .pattes2{
     display: flex;
     flex-direction: row;
-    width: 500px;
-    height: 250px;
+    width: 510px;
+    height: 255px;
 }
 
 .pattes2 h2{
+    display: flex;
+    align-items: center;
+}
+
+.vetements{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.vetements1{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 225px;
+}
+
+.vetements1 h2{
+    display: flex;
+}
+
+.cousinerie{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.cousinerie1{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 245px;
+}
+
+.cousinerie1 h2{
+    display: flex;
+    align-items: center;
+}
+
+.noel{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.noel1{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 338px;
+}
+
+.noel1 h2{
+    display: flex;
+    align-items: center;
+}
+
+.halloween{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.halloween1{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 563px;
+}
+
+.halloween1 h2{
     display: flex;
     align-items: center;
 }
@@ -210,6 +281,52 @@ h1{
 }
 
 .top4{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.vitrine .vitr img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    border: rgb(197, 128, 0) solid 4px;
+    box-shadow: 10px 10px 15px rgb(39, 39, 39);
+}
+
+.vetements .vitr img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    border: rgb(197, 128, 0) solid 4px;
+    box-shadow: 10px 10px 15px rgb(39, 39, 39);
+}
+
+.cousinerie .vitr img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    border: rgb(197, 128, 0) solid 4px;
+    box-shadow: 10px 10px 15px rgb(39, 39, 39);
+}
+
+.noel .vitr img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    border: rgb(197, 128, 0) solid 4px;
+    box-shadow: 10px 10px 15px rgb(39, 39, 39);
+}
+
+.halloween .vitr img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    border: rgb(197, 128, 0) solid 4px;
+    box-shadow: 10px 10px 15px rgb(39, 39, 39);
+}
+
+.vitr{
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
