@@ -368,6 +368,12 @@ h1{
     height: 20px;
 }
 
+.dmg{
+transform: scale(0);
+}
+
+
+
 @media screen and (max-width:1300px) {
     .pattes img{
         display: none;
@@ -467,3 +473,141 @@ h1{
         height: 125px;
     }
 }
+
+@media screen and (max-width:700px) {
+    .pattes2 img{
+        display: none;
+ }
+    .vitr img{
+        width: 150px !important;
+        height: 150px !important;
+    }
+    .vetements1 img{
+        display: none;
+    }
+    
+    .cousinerie1 img{
+        display: none;
+    }
+
+.noel1 img{
+    display: none;
+}
+
+.halloween1 img{
+    display: none;
+}
+
+.pattes2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    font-size:  17px;
+}
+
+.vetements1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    font-size: 17px;
+}
+
+
+.cousinerie1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    font-size: 17px;
+}
+
+.noel1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    font-size: 17px;
+}
+
+.halloween1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    font-size: 17px;
+}
+
+
+    
+
+        
+    }
+
+    @media screen and (max-width:1300px) {
+        .pattes2 img{
+            display: none;
+     }
+        .vetements1 img{
+            display: none;
+        }
+        
+        .cousinerie1 img{
+            display: none;
+        }
+    
+    .noel1 img{
+        display: none;
+    }
+    
+    .halloween1 img{
+        display: none;
+    }
+    .pattes2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+    
+    .vetements1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+    
+    
+    .cousinerie1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+    
+    .noel1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+    
+    .halloween1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+    }
+
+
+
+    
+
+    
