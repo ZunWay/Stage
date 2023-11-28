@@ -472,6 +472,11 @@ transform: scale(0);
         width: 125px;
         height: 125px;
     }
+
+    .bouton img{
+        height: 75px;
+        width: 75px;
+    }
 }
 
 @media screen and (max-width:700px) {
@@ -544,11 +549,11 @@ transform: scale(0);
     font-size: 17px;
 }
 
-
-    
-
-        
-    }
+.bouton img{
+    height: 75px;
+    width: 75px;
+}
+}
 
     @media screen and (max-width:1300px) {
         .pattes2 img{

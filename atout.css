@@ -601,6 +601,11 @@ justify-content: center;
     font-size: 8px ;
     align-items: end;
 }
+
+.bouton img{
+    height: 75px;
+    width: 75px;
+}
 }
 
 @media screen and (max-width: 1300px){
