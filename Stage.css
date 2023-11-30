@@ -391,6 +391,7 @@ h1{
 
 .gourmandises{
     display: flex;
+    flex-direction: column;
 }
 
 .gourmandises p{
