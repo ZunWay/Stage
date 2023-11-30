@@ -372,7 +372,31 @@ h1{
 transform: scale(0);
 }
 
+.gourmandises p{
+    z-index: -1;
+    transform: scale(0);
+}
 
+.gourmandises:hover p{
+    transform: scale(1);
+}
+
+.vitr .gourmandises:hover img{
+    transform: scale(0);
+}
+
+.vitr .gourmandises:hover{
+    position: relative;
+}
+
+.gourmandises{
+    display: flex;
+}
+
+.gourmandises p{
+    font-size: 20px;
+    color: white;
+}
 
 @media screen and (max-width:1300px) {
     .pattes img{
