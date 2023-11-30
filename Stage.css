@@ -369,7 +369,7 @@ h1{
 }
 
 .dmg{
-transform: scale(0);
+    transform: scale(0);
 }
 
 .gourmandises p{
@@ -396,6 +396,37 @@ transform: scale(0);
 .gourmandises p{
     font-size: 20px;
     color: white;
+}
+
+.vitr{
+    display: flex;
+    justify-content: space-around;
+}
+
+.gourmandises p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+.gourmandises{
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+.gourmandises img{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.gourmandises p{
+    height: 300px;
+    width: 300px;
 }
 
 @media screen and (max-width:1300px) {
